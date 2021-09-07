@@ -1,0 +1,52 @@
+html {
+    background-color: rgb(248, 248, 219);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.todo{
+    position: absolute;
+        left: 50%;
+        top: 50px;
+        transform: translate(-50%, 0%);
+        font-family: "Gill Sans", sans-serif;
+        background-color: rgb(250, 238, 216);
+        border-radius: 6px;
+        padding: 10px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.todoList{
+        width: 330px;
+        background-color: rgb(245, 202, 202);
+        border-radius: 6px;
+        cursor: pointer;
+  
+}
+.deleteTask{
+    float: right;
+        border-radius: 6px;
+        padding: 4px;
+        color: white;
+        background-color: rgb(97, 97, 97);
+}
+
+.inputVal{
+    width: 400px;
+        border-radius: 6px;
+        padding: 4px;
+}
+.btn{
+    border-radius: 6px;
+        padding: 4px;
+        color: white;
+        background-color: rgb(97, 97, 97);
+    
+}
+.clearTask{
+    float: right;
+    border-radius: 6px;
+    padding: 4px;
+    color: white;
+    background-color: rgb(97, 97, 97);
+}
